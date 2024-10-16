@@ -13,9 +13,9 @@ function calc() {
     console.log(output);
     document.getElementById("screen").textContent = output;
 }
-function clear() {
-    //input = "";
-    //output = 0;
+function c() {
+    input = " ";
+    output = 0;
     console.log("cleared");
-    //document.getElementById("screen").textContent = "0";
+    document.getElementById("screen").textContent = output;
 }

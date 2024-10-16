@@ -1,14 +1,20 @@
 .calculator {
     background-color: cadetblue;
-    width:fit-content;
+    width: fit-content;
     padding: 10px;
+    
 }
 .buttons {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
+.buttons > * {
+    border: solid 1px;
+    width: auto;
+}
 #screen {
     background-color: rgb(70, 70, 70);
     color: aliceblue;
     padding: 5px;
+    text-align: right;
 }
